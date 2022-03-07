@@ -46,9 +46,6 @@ templates_path = ['_templates']
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = []
 
-html_static_path = ['_static']
-html_style = 'ftrack.css'
-
 # -- HTML output --------------------------------------------------------------
 
 # on_rtd is whether currently on readthedocs.org
