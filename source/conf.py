@@ -33,6 +33,7 @@ release = '0.1.0'
 extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.extlinks',
+    'sphinx.ext.intersphinx',
     'sphinx.ext.todo',
     'sphinx.ext.viewcode',
     'lowdown'
@@ -61,9 +62,20 @@ if not on_rtd:  # only import and set the theme if building docs locally
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
+# html_theme = 'alabaster'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+
+# -- Intersphinx --------------------------------------------------------------
+
+intersphinx_mapping = {
+    'python': ('http://docs.python.org/', None),
+    'ftrack-python-api': ('http://rtd.ftrack.com/docs/ftrack-python-api/en/latest/', None),
+    'ftrack-connect': ('https://ftrack-connect.rtd.ftrack.com/en/latest/', None),
+    'ftrack-application-launcher': ('https://ftrack-application-launcher.readthedocs.io/en/latest/', None),
+    'ftrack-connect-plugin-manager': ('https://ftrack-connect-plugin-manager.readthedocs.io/en/latest/', None)
+}
