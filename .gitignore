@@ -41,7 +41,9 @@ Thumbs.db
 *.war
 
 .vscode/**
+.eggs/**
 build/**
+doc/**
 # Large media files
 *.mp4
 *.tiff

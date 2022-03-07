@@ -13,7 +13,7 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
-
+import os
 
 # -- Project information -----------------------------------------------------
 
@@ -31,6 +31,11 @@ release = '0.1.0'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'sphinx.ext.autodoc',
+    'sphinx.ext.extlinks',
+    'sphinx.ext.todo',
+    'sphinx.ext.viewcode',
+    'lowdown'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -41,6 +46,18 @@ templates_path = ['_templates']
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = []
 
+html_static_path = ['_static']
+html_style = 'ftrack.css'
+
+# -- HTML output --------------------------------------------------------------
+
+# on_rtd is whether currently on readthedocs.org
+on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
+
+if not on_rtd:  # only import and set the theme if building docs locally
+    import sphinx_rtd_theme
+    html_theme = 'sphinx_rtd_theme'
+    html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 # -- Options for HTML output -------------------------------------------------
 
