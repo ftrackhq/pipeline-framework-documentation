@@ -40,6 +40,8 @@ Thumbs.db
 *.exe
 *.war
 
+.vscode/**
+build/**
 # Large media files
 *.mp4
 *.tiff
