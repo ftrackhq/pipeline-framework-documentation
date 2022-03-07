@@ -74,7 +74,7 @@ html_static_path = ['_static']
 
 intersphinx_mapping = {
     'python': ('http://docs.python.org/', None),
-    'ftrack-python-api': ('http://rtd.ftrack.com/docs/ftrack-python-api/en/latest/', None),
+    'ftrack-python-api': ('https://ftrack-python-api.rtd.ftrack.com/en/latest/', None),
     'ftrack-connect': ('https://ftrack-connect.rtd.ftrack.com/en/latest/', None),
     'ftrack-application-launcher': ('https://ftrack-application-launcher.readthedocs.io/en/latest/', None),
     'ftrack-connect-plugin-manager': ('https://ftrack-connect-plugin-manager.readthedocs.io/en/latest/', None)
