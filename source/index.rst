@@ -6,10 +6,10 @@
 Welcome to ftrack Connect & Integrations: Pipeline documentation
 ================================================================
 
-.. figure:: images/banner.jpg
-    :width: 800px
+.. figure:: images/ftrackConnectlogodarktheme.png
+    :width: 1100px
     :align: center
-    :height: 200px
+    :height: 333px
     :alt: alternate text
     :figclass: align-center
 
