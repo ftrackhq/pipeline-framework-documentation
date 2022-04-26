@@ -3,17 +3,14 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to ftrack Connect & Integrations: Pipeline documentation
-================================================================
+Welcome to ftrack Connect & Integrations: Pipeline Framework documentation
+==========================================================================
 
-.. figure:: images/ftrackConnectlogodarktheme.png
-    :width: 1100px
+.. figure:: /images/ftrackConnectlogolighttheme.png
     :align: center
-    :height: 333px
-    :alt: alternate text
+    :width: 300px
+    :alt: ftrackconnect
     :figclass: align-center
-
-    ftrack
 
 `ftrack webiste <https://www.ftrack.com/>`_
 `Join ftrack Community Forum <https://forum.ftrack.com/>`_
@@ -24,25 +21,16 @@ Welcome to ftrack Connect & Integrations: Pipeline documentation
    :maxdepth: 2
 
    overview
+   publishing
+   assetManager
+   assembler
    quickStart
    pipeline-workflow
-   pipelineframework
-   publisherUserDocumentationó
-   assemblerUserDocumentation
-   assetManagerUserDocumentation
-   shifterComponentReference
-   synopticUserDocumentation
    videoTutorials
    FAQ
-   releaseLog
+   releaseNotes
    license
 
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
-   introduction
 
 Indices and tables
 ==================
