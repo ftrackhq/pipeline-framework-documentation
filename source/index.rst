@@ -21,7 +21,7 @@ Welcome to ftrack Connect & Integrations: Pipeline Framework documentation
    :maxdepth: 2
 
    overview
-   publishing
+   pipelineFramework
    assetManager
    assembler
    quickStart
